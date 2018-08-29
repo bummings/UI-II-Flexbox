@@ -69,6 +69,11 @@ h1, h2, h3, h4, h5 {
   margin: 30px 60px;
 }
 
+.paragraph {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
 .nav {
   padding: 5px;
   display: flex;
@@ -101,4 +106,31 @@ h1, h2, h3, h4, h5 {
 
 .services {
   margin-top: 35px;
+}
+
+.customHR {
+  background-color: #000;
+  height: 3px;
+  margin: 40px 0;
+}
+
+.box {
+  width: 40%;
+  height: 250px;
+  background-color: #F4F3F4;
+  border: 1px solid black;
+  padding: 22px;
+}
+
+.box__headline {
+  font-family: Bangers;
+  font-size: 18px;
+}
+
+.box__btn {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 5px;
 }
