@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 .paragraph {
   font-size: 17px;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .nav {
@@ -114,12 +114,20 @@ h1, h2, h3, h4, h5 {
   margin: 40px 0;
 }
 
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .box {
+  box-sizing: content-box;
   width: 40%;
-  height: 250px;
+  height: 210px;
   background-color: #F4F3F4;
   border: 1px solid black;
-  padding: 22px;
+  padding: 25px;
+  margin: 20px 0;  
 }
 
 .box__headline {
@@ -131,6 +139,39 @@ h1, h2, h3, h4, h5 {
   width: 150px;
   height: 40px;
   border: 1px solid black;
-  margin-top: 15px;
+  margin-top: 20px;
   border-radius: 5px;
+}
+
+.services-info-img {
+  width: 44.5%;
+  height: auto;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.facts__text {
+  box-sizing: content-box;
+  width: 40%;
+  height: 210px;
+  padding: 25px;
+  margin: 20px 0;
+}
+
+.facts__list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.facts__listItem {
+  margin: 10px 0;
+}
+
+.copyright {
+  justify-content: center;
+  color: red;
 }
