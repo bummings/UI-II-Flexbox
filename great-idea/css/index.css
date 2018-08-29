@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  padding: 0 50px;
 }
 
 .nav .nav__item {
@@ -92,7 +93,56 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-  margin-left: 100px;
+  /* margin-left: 100px; */
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+  padding: 0 100px;
+}
+
+.hero .hero__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__left--text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__left .hero__left--text {
+  font-size: 85px;
+  text-align: center;
+}
+
+.hero__left .hero__left--btn {
+  background-color: white;
+  height: 40px;
+  width: 200px;
+  border: 3px solid lightgray;
+  padding: 0 10px;
+  font-size: 17px;
+  color: black;
+  border: 1px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__right {
+
+}
+
+.hero__right--img {
+  /* margin-bottom: 80px; */
 }
 
 .hero .services-header-img {
@@ -176,4 +226,72 @@ h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+}
+
+.middleImg {
+  display: flex;
+  justify-content: center;  
+}
+
+.middleImg .middleImg__img {
+  width: 100%;
+}
+
+
+.customHR {
+  height: 3px;
+  background-color: black;
+  margin: 30px 0;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  width: 100%;
+  
+}
+
+.row1__box {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  padding: 25px;
+}
+
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.row2__box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 33%;
+  padding: 25px;
+}
+
+.contact__phone {
+  margin: 15px 0;
+}
+
+.contact__email {
+  margin: 15px 0;
+}
+
+address {
+  font-size: 17px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: IBM Plex Mono;
 }
